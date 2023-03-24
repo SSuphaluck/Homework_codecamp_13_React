@@ -53,9 +53,9 @@ function App() {
       <p>{string}</p>
       <p>{number}</p>
       <p>{boolean.toString()}</p>
-      <p>{toString(thisIsNull)}</p>
-      <p>{toString(thisIsUndefined)}</p>
-      <p>{obj.toString()}</p>
+      <p>{String(thisIsNull)}</p>
+      <p>{String(thisIsUndefined)}</p>
+      <p>He's name is {obj.name}</p>
     </div>
   );
 }
